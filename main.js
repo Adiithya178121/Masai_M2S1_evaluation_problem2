@@ -10,4 +10,5 @@ console.log(inventory.getProducts());
 console.log(inventory.get_filtered_Products("Electronics"));
 console.log(inventory.get_low_stock_Products());
 console.log(inventory.get_total_inventoryValue());
-
+console.log(inventory.sort_by_value());
+console.log(inventory.sort_by_stocklevel());
