@@ -12,3 +12,20 @@ console.log(inventory.get_low_stock_Products());
 console.log(inventory.get_total_inventoryValue());
 console.log(inventory.sort_by_price());
 console.log(inventory.sort_by_stocklevel());
+
+
+
+
+const inventory = createInventoryManager();
+inventory.addProduct("Table", "Furniture", 250, 2);
+inventory.addProduct("Mouse", "Electronics", 40, 20);
+inventory.addProduct("Keyboard", "Electronics", 60, 5);
+
+console.log(inventory.getProducts());
+console.log(inventory.get_filtered_Products("Furniture"));
+console.log(inventory.get_low_stock_Products());
+console.log(inventory.get_total_inventoryValue());
+console.log(inventory.sort_by_price());
+console.log(inventory.sort_by_stocklevel());
+
+
