@@ -7,7 +7,7 @@ inventory.addProduct("Phone", "Electronics", 800, 3);
 inventory.addProduct("Chair", "Furniture", 100, 15);
 
 console.log(inventory.getProducts());
-console.log(inventory.getFilteredProducts("Electronics"));
-console.log(inventory.getLowStockProducts());
-console.log(inventory.getTotalInventoryValue());
+console.log(inventory.get_filtered_Products("Electronics"));
+console.log(inventory.get_low_stock_Products());
+console.log(inventory.get_total_inventoryValue());
 
